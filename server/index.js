@@ -20,6 +20,6 @@ app.use("/api", cartRoutes);
 
 app.listen(PORT, () => {
     connectDb();
-    // seedProducts();
+    seedProducts();
     console.log(`Server is running on port ${PORT}`);
 });
